@@ -7,23 +7,23 @@ def mostrar_aviso():
     try:
         numero = int(numero_inserido)
         if 1 <= numero <= 7:
-            mensagem = "Estoy sonhando com minha bela princesa"
+            mensagem = "1"
         elif 8 <= numero <= 10:
-            mensagem = "Será que minha gata vai me dar um bom dia?"
+            mensagem = "2"
         elif 11 <= numero <= 12:
-            mensagem = "To almoçando, mas queria estar rangando ela!"
+            mensagem = "3"
         elif 13 <= numero <= 15:
-            mensagem = "Meu momo está trabalhando, sdds dela!"
+            mensagem = "4"
         elif 16 <= numero <= 18:
-            mensagem = "Quero saber as fofocas do forum!! ksks"
+            mensagem = "5"
         elif 19 <= numero <= 21:
-            mensagem = "Mal posso esperar para ver meu momo!"
+            mensagem = "6"
         elif 22 <= numero <= 23:
-            mensagem = "Meu momento mais feliz da semana, uma hora dessas eu to quase voltando para \n casa com minha princesa!"
+            mensagem = "7"
         elif numero == 24:
-            mensagem = "Minha princesa é uma gostosa, podia estar grudadinho nela, quem sabe até dentro rsrs!"
+            mensagem = "8"
         else:
-            mensagem = "Quem me dera se meu dia tivesse mais horas para poder passar com ela!"
+            mensagem = "9"
 
         # Exibe um aviso com a mensagem
         messagebox.showinfo("Pensamento", mensagem)
@@ -53,7 +53,7 @@ label_mensagem = tk.Label(janela, text="", anchor="e", padx=10)
 label_mensagem.pack(side="top", fill="x")
 
 # Define uma mensagem inicial no canto superior direito (opcional)
-mensagem_inicial = "Bem-vindo(a)! Aqui você sabe\n os tipos de pensamentos no dia\n que eu tenho com meu AMOR!"
+mensagem_inicial = "Bem-vindo(a)"
 label_mensagem.config(text=mensagem_inicial)
 label_mensagem.pack(padx= 10, pady=10)
 
